@@ -71,6 +71,18 @@ variable "vm_disk_size" {
     default     = "list"
 }
 
+variable "catalog_name" {
+    type        = string
+    description = "Catalog:"
+    default     = "list"
+}
+
+
+variable "template_name" {
+  type        = string
+  description = "OS:"
+  default     = "list"
+}
 
 variable "org_network_name" {
     type        = string
@@ -79,17 +91,14 @@ variable "org_network_name" {
 }
     
 
-variable "catalog_name" {
+variable "adapter_type" {
     type        = string
-    description = "Catalog:"
+    description = "Adapter Type:*"
     default     = "list"
-}
 
-variable "template_name" {
-  type        = string
-  description = "OS:"
-  default     = "list"
-}
+}    
+
+
 
 
 variable "vm_ip" {
