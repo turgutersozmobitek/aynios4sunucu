@@ -246,5 +246,5 @@ variable "vm4_disk_size" {
 
 variable "vm4_ip" {
     type        = string
-    description = "IP Adresi:*
+    description = "IP Adresi:*"
 }
